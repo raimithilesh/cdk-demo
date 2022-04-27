@@ -4,7 +4,7 @@ import * as cdk from 'aws-cdk-lib';
 //import { DevopsDemoStack } from '../lib/devops-demo-stack';
 
 const app = new cdk.App();
-new DevopsDemoStack(app, 'DevopsDemoStack1', {
+new CDKDemoStack(app, 'CDKDemoStack', {
   env: {
     account: '713411715170',
     region: 'us-east-1',

@@ -3,7 +3,7 @@ import { CodePipeline, CodePipelineSource, ManualApprovalStep, ShellStep } from 
 import { Construct } from 'constructs';
 //import { MyPipelineAppStage } from './stage';
 
-export class DevopsDemoStack extends Stack {
+export class CDKDemoStack extends Stack {
   constructor(scope: Construct, id: string, props?: StackProps) {
     super(scope, id, props);
 
